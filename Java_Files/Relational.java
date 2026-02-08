@@ -1,0 +1,11 @@
+class Relational 
+{
+	public static void main(String[] args) 
+	{
+		char n = 'a';
+		char m = 'b';
+		boolean res = n!=m;
+		
+		System.out.println(res);
+	}
+}

@@ -1,0 +1,19 @@
+class  Demo
+{
+	public static void main(String[] args) 
+	{
+		int balance = 2500;
+		int transfer = 300;
+		int deposit = 500;
+		
+		
+		System.out.println("Balance...transfering");
+		balance  = balance - transfer;
+		System.out.println(balance);
+		
+		System.out.println("deposit...balance");
+		balance = balance+deposit;
+		System.out.println(balance);
+		
+	}
+}
